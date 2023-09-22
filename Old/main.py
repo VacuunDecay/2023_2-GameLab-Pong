@@ -93,7 +93,7 @@ class Player(Sprite):
         self.point += num
 
 class Computer(Sprite):
-    sp = 0.05
+    sp = 0.1
     point = 0
 
     def __init__(self, file):
